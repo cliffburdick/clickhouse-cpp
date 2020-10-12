@@ -3,6 +3,12 @@ ClickHouse C++ client [![Build Status](https://travis-ci.org/ClickHouse/clickhou
 
 C++ client for [Yandex ClickHouse](https://clickhouse.yandex/)
 
+## Cloning
+clickhouse-cpp uses git submodules. When cloning, pass --recurse-submodules to pick the submodules up.
+```sh
+$ git clone https://github.com/ClickHouse/clickhouse-cpp.git --recurse-submodules
+```
+
 ## Supported data types
 
 * Array(T)
